@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta name="theme-color" content="#111111">
+  <meta name="description" content="PTCG Pocket paper play energy randomizer — roll your energy drop each turn">
+  <title>PTCG Pocket — Energy Roller</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <h1>⚡ Energy Roller</h1>
+      <p class="tagline">PTCG Pocket · Paper Play</p>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="card">
+      <p class="section-label">Step 1 · Select your deck's energy types</p>
+      <div class="energy-grid" id="energyGrid"></div>
+    </section>
+
+    <section class="card">
+      <p class="section-label">Step 2 · How many turns to roll?</p>
+      <div class="turns-row">
+        <span class="turns-desc">Turns</span>
+        <input type="range" min="1" max="4" value="1" step="1" id="turnsSlider" aria-label="Number of turns to roll">
+        <div class="turns-badge" id="turnsVal">1</div>
+      </div>
+    </section>
+
+    <button class="roll-btn" id="rollBtn" disabled aria-label="Roll energy for this turn">
+      Roll Energy
+    </button>
+
+    <section class="result-card" id="resultArea" aria-live="polite">
+      <span class="empty-msg">Pick your energy types above ↑</span>
+    </section>
+
+    <div class="reset-row">
+      <button class="reset-btn" id="resetBtn">Reset</button>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>Fan-made tool for paper PTCG Pocket play · Not affiliated with The Pokémon Company</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
