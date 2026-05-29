@@ -61,8 +61,6 @@ No server or build step needed — it's plain HTML/CSS/JS.
 | fighting    | Fighting  |
 | darkness    | Darkness  |
 | metal       | Metal     |
-| colorless   | Normal    |
-| dragon      | Dragon    |
 
 ---
 Fan-made tool · Not affiliated with The Pokémon Company
