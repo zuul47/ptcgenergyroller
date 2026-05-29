@@ -18,7 +18,7 @@ const TYPES = [
   { id: 'lightning', name: 'Lightning', icon: '⚡', bg: '#c8a010' },
   { id: 'psychic',   name: 'Psychic',   icon: '🔮', bg: '#d45aaf' },
   { id: 'fighting',  name: 'Fighting',  icon: '✊', bg: '#b85c2a' },
-  { id: 'darkness',  name: 'Darkness',  icon: '🌑', bg: '#4a3a6a' },
+  { id: 'darkness',  name: 'Dark',  icon: '🌑', bg: '#4a3a6a' },
   { id: 'metal',     name: 'Metal',     icon: '⚙️', bg: '#6a7a8a' },
  
 ];
