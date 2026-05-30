@@ -229,7 +229,7 @@ input[type=range]::-moz-range-thumb {
   width: 100%;
   padding: 20px;
   border-radius: var(--radius-lg);
-  background: #fff;
+  background: #006f19;
   color: #111;
   font-family: 'Bebas Neue', sans-serif;
   font-size: 28px;
