@@ -12,14 +12,14 @@
  */
 
 const TYPES = [
-  { id: 'fire',      name: 'Fire',      icon: '<img src="images/fire.png" alt="Fire energy" style="width:32px;height:32px;object-fit:contain;">', bg: '#e8431a' },
-  { id: 'water',     name: 'Water',     icon: '<img src="images/water.png" alt="Water energy" style="width:32px;height:32px;object-fit:contain;">', bg: '#3a8fd4' },
-  { id: 'grass',     name: 'Grass',     icon: '<img src="images/grass.png" alt="Grass energy" style="width:32px;height:32px;object-fit:contain;">', bg: '#3aab3a' },
-  { id: 'lightning', name: 'Lightning', icon: '<img src="images/lightning.png" alt="Lightning energy" style="width:32px;height:32px;object-fit:contain;">', bg: '#c8a010' },
-  { id: 'psychic',   name: 'Psychic',   icon: '<img src="images/psychic.png" alt="Psychic energy" style="width:32px;height:32px;object-fit:contain;">', bg: '#d45aaf' },
-  { id: 'fighting',  name: 'Fighting',  icon: '<img src="images/fighting.png" alt="Fighting energy" style="width:32px;height:32px;object-fit:contain;">', bg: '#b85c2a' },
-  { id: 'darkness',  name: 'Darkness',  icon: '<img src="images/darkness.png" alt="Darkness energy" style="width:32px;height:32px;object-fit:contain;">', bg: '#4a3a6a' },
-  { id: 'metal',     name: 'Metal',     icon: '<img src="images/metal.png" alt="Metal energy" style="width:32px;height:32px;object-fit:contain;">', bg: '#6a7a8a' },
+  { id: 'fire',      name: 'Fire',      icon: '<img src="images/fire.png" alt="Fire energy" style="width:50px;height:50px;object-fit:contain;">', bg: '#e8431a' },
+  { id: 'water',     name: 'Water',     icon: '<img src="images/water.png" alt="Water energy" style="width:50px;height:50px;object-fit:contain;">', bg: '#3a8fd4' },
+  { id: 'grass',     name: 'Grass',     icon: '<img src="images/grass.png" alt="Grass energy" style="width:50px;height:50px;object-fit:contain;">', bg: '#3aab3a' },
+  { id: 'lightning', name: 'Lightning', icon: '<img src="images/lightning.png" alt="Lightning energy" style="width:50px;height:50px;object-fit:contain;">', bg: '#c8a010' },
+  { id: 'psychic',   name: 'Psychic',   icon: '<img src="images/psychic.png" alt="Psychic energy" style="width:50px;height:50px;object-fit:contain;">', bg: '#d45aaf' },
+  { id: 'fighting',  name: 'Fighting',  icon: '<img src="images/fighting.png" alt="Fighting energy" style="width:50px;height:50px;object-fit:contain;">', bg: '#b85c2a' },
+  { id: 'darkness',  name: 'Darkness',  icon: '<img src="images/darkness.png" alt="Darkness energy" style="width:50px;height:50px;object-fit:contain;">', bg: '#4a3a6a' },
+  { id: 'metal',     name: 'Metal',     icon: '<img src="images/metal.png" alt="Metal energy" style="width:50px;height:50px;object-fit:contain;">', bg: '#6a7a8a' },
  
 ];
 
