@@ -59,7 +59,7 @@ No server or build step needed — it's plain HTML/CSS/JS.
 | lightning   | Lightning |
 | psychic     | Psychic   |
 | fighting    | Fighting  |
-| darkness    | Dark  |
+| darkness    | Darkness  |
 | metal       | Metal     |
 
 ---
